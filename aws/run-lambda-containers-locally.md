@@ -9,10 +9,16 @@ docker build -t myfunction .
 Then we can run it locally:
 
 ```bash
-docker run -p 9000:8080  myfunction:latest
+docker run -p 9000:8080 myfunction:latest
 ```
 
-Then we can trigger that function with curl:
+Or, if we need to provide environment variables, then we can include an enviornment file:
+
+```bash
+docker run -p 9000:8080 --env-file .env.local myfunction:latest
+```
+
+Then we can trigger that function in another terminal with curl:
 
 ```bash
 curl -XPOST "http://localhost:9000/2015-03-31/functions/function/invocations" -d '{}'
