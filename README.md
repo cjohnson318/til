@@ -10,6 +10,10 @@ Collection of things I've learned, that I'd otherwise quickly forget. (Again.)
 
 * [AWS-ECS](#aws-ecs)
 * [AWS-Lambda](#aws-lambda)
+* [Linux](#linux)
+* [Math](#math)
+* [Pandas](#pandas)
+* [Python](#python)
 
 ---
 
