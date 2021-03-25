@@ -14,3 +14,15 @@ Then you can check the results with the `xxd` utility:
 xxd original.txt
 xxd swapped.txt
 ```
+
+If you need to alter 32-bit data you can use the following:
+
+```bash
+hexdump -v -e '1/4 "%08x"' somefile.txt
+```
+
+The 16-bit variation of this technique is:
+
+```bash
+hexdump -v -e '1/2 "%04x"' somefile.txt
+```
