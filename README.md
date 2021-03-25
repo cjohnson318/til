@@ -9,12 +9,28 @@ Collection of things I've learned, that I'd otherwise quickly forget. (Again.)
 ### Categories
 
 * [AWS-ECS](#aws-ecs)
+* [AWS-Lambda](#aws-lambda)
 
 ---
 
 ### AWS-ECS
-
 - [Access a Container Running in ECS](aws-ecs/access-running-container.md)
+
+### AWS-Lambda
+- [Access RDS from Lambda](access-rds-from-lambda.md)
+- [Run Lambda Containers Locally](run-lambda-containers-locally.md)
+
+### Linux
+- [Change the Endian-ness of a File](change-endian-ness.md)
+
+### Math
+- [Entropy and Information Gain](entropy_and_information_gain.md)
+
+### Pandas
+- [Replace `np.nan` with `None`](replace-np-nan-with-none.md)
+
+### Python
+- [Show Package Dependencies Using pip](pip-show-package-dependencies.md)
 
 ---
 
