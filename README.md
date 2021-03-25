@@ -21,20 +21,20 @@ Collection of things I've learned, that I'd otherwise quickly forget. (Again.)
 - [Access a Container Running in ECS](aws-ecs/access-running-container.md)
 
 ### AWS-Lambda
-- [Access RDS from Lambda](access-rds-from-lambda.md)
-- [Run Lambda Containers Locally](run-lambda-containers-locally.md)
+- [Access RDS from Lambda](aws-lambda/access-rds-from-lambda.md)
+- [Run Lambda Containers Locally](aws-lambda/run-lambda-containers-locally.md)
 
 ### Linux
-- [Change the Endian-ness of a File](change-endian-ness.md)
+- [Change the Endian-ness of a File](linux/change-endian-ness.md)
 
 ### Math
-- [Entropy and Information Gain](entropy_and_information_gain.md)
+- [Entropy and Information Gain](math/entropy_and_information_gain.md)
 
 ### Pandas
-- [Replace `np.nan` with `None`](replace-np-nan-with-none.md)
+- [Replace `np.nan` with `None`](pandas/replace-np-nan-with-none.md)
 
 ### Python
-- [Show Package Dependencies Using pip](pip-show-package-dependencies.md)
+- [Show Package Dependencies Using pip](python/pip-show-package-dependencies.md)
 
 ---
 
