@@ -32,9 +32,11 @@ Collection of things I've learned, that I'd otherwise quickly forget. (Again.)
 
 ### Pandas
 - [Replace `np.nan` with `None`](pandas/replace-np-nan-with-none.md)
+- [Drop rows/cols with missing data](pandas/drop-rows-or-cols-with-missing-data.md)
 
 ### Python
 - [Show Package Dependencies Using pip](python/pip-show-package-dependencies.md)
+- [Show Current Python Version Running Jupyter](python/jupyer-show-current-python-version.md)
 
 ---
 
