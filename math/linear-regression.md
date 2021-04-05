@@ -14,8 +14,10 @@ The output is kept in `result.summary()`; simply trying to say `print(result)`
 will not work.
 
 ```python
+import pandas
 import statsmodels.formula.api as sm
 
+df = pandas.read_csv('data.csv')
 result = sm.ols(formula="Kriged ~ SixMoCumOilNorml7k", data=df).fit()
 print(result.summary())
                             OLS Regression Results                            
@@ -46,3 +48,5 @@ Notes:
 [2] The condition number is large, 5.07e+05. This might indicate that there are
 strong multicollinearity or other numerical problems.
 ```
+
+[Official Documentation](https://www.statsmodels.org/stable/index.html)
