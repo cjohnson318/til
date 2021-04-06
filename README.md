@@ -17,12 +17,11 @@ Collection of things I've learned, that I'd otherwise quickly forget. (Again.)
 
 ---
 
-### AWS-ECS
-- [Access a Container Running in ECS](aws-ecs/access-running-container.md)
-
-### AWS-Lambda
-- [Access RDS from Lambda](aws-lambda/access-rds-from-lambda.md)
-- [Run Lambda Containers Locally](aws-lambda/run-lambda-containers-locally.md)
+### AWS
+- [Access a Container Running in ECS](aws/access-running-container.md)
+- [Access RDS from Lambda](aws/access-rds-from-lambda.md)
+- [Increase Storage for Windows EC2](aws/increase-storage-for-windows-ec2.md)
+- [Run Lambda Containers Locally](aws/run-lambda-containers-locally.md)
 
 ### Linux
 - [Change the Endian-ness of a File](linux/change-endian-ness.md)
