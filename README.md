@@ -32,7 +32,7 @@ Collection of things I've learned, that I'd otherwise quickly forget. (Again.)
 ### Pandas
 - [Drop rows/cols with missing data](pandas/drop-rows-or-cols-with-missing-data.md)
 - [Replace `np.nan` with `None`](pandas/replace-np-nan-with-none.md)
-
+- [Spatial Interpolation](pandas/spatial-interpolation.md)
 
 ### Python
 - [Show Current Python Version Running Jupyter](python/jupyer-show-current-python-version.md)
