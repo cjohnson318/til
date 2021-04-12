@@ -18,5 +18,5 @@ result = df[df['street'].str.match(r'Sesame')]
 
 ## References
 
-[Series.str.match()](https://pandas.pydata.org/docs/reference/api/pandas.Series.str.match.html)
-[Series.str.contains()](https://pandas.pydata.org/docs/reference/api/pandas.Series.str.contains.html)
+- [Series.str.match()](https://pandas.pydata.org/docs/reference/api/pandas.Series.str.match.html)
+- [Series.str.contains()](https://pandas.pydata.org/docs/reference/api/pandas.Series.str.contains.html)
