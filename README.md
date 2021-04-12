@@ -40,7 +40,7 @@ Collection of things I've learned, that I'd otherwise quickly forget. (Again.)
 - [Spatial Interpolation](pandas/spatial-interpolation.md)
 
 ### Python
-- [Show Current Python Version Running Jupyter](python/jupyer-show-current-python-version.md)
+- [Show Current Python Version Running Jupyter](python/jupyter-show-current-python-version.md)
 - [Show Package Dependencies Using pip](python/pip-show-package-dependencies.md)
 
 
