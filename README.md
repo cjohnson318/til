@@ -10,6 +10,7 @@ Collection of things I've learned, that I'd otherwise quickly forget. (Again.)
 
 * [AWS](#aws)
 * [Databases](#databases)
+* [GeoPandas](#geopandas)
 * [Linux](#linux)
 * [Math](#math)
 * [Pandas](#pandas)
@@ -25,6 +26,9 @@ Collection of things I've learned, that I'd otherwise quickly forget. (Again.)
 
 ### Databases
 - [pyodbc](databases/pyodbc)
+
+### GeoPandas
+- [Convert Lat/Lon Coordinates to Lambert Azimuthal Equal Area Projection](geopandas/convert-data-to-lambert-projection.md)
 
 ### Linux
 - [Change the Endian-ness of a File](linux/change-endian-ness.md)
