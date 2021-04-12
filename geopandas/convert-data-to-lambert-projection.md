@@ -15,7 +15,7 @@ import matplotlib.pyplot as plt
 import pandas
 import pyproj
 
-df = pandas.read_csv('krige_input.csv')
+df = pandas.read_csv('data.csv')
 ```
 
 Create a Lambert azimuthal equal area projection based on the median of your
