@@ -10,6 +10,7 @@ Collection of things I've learned, that I'd otherwise quickly forget. (Again.)
 
 * [AWS](#aws)
 * [Databases](#databases)
+* [Docker](#docker)
 * [GeoPandas](#geopandas)
 * [Linux](#linux)
 * [Math](#math)
@@ -26,6 +27,9 @@ Collection of things I've learned, that I'd otherwise quickly forget. (Again.)
 
 ### Databases
 - [pyodbc](databases/pyodbc)
+
+### Docker
+- [`RUN` vs. `CMD`](docker/run-vs-cmd.md)
 
 ### GeoPandas
 - [Convert Lat/Lon Coordinates to Lambert Azimuthal Equal Area Projection](geopandas/convert-data-to-lambert-projection.md)
