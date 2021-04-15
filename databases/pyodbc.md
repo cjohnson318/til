@@ -42,3 +42,28 @@ Get table data,
 cursor.execute(f'SELECT * FROM {tables[0]};')
 data = cursor.fetchall()
 ```
+
+## Create a database
+
+If the database server does not have a database yet, then we can create one.
+
+Note, `connection.autocommit` needs to be set to `True`
+
+```python
+import pyodbc
+
+DRIVER = '{ODBC Driver 17 for SQL Server}'
+IPADDR = ...
+PORTNO = ...
+USER = ...
+PASSWORD = ...
+
+connection_string = f'DRIVER={DRIVER};SERVER={IPADDR},{PORTNO};UID={USER};PWD={PASSWORD}'
+connection = pyodbc.connect(connection_string)
+cursor = connection.cursor()
+
+connection.autocommit = True
+cursor.execute('CREATE DATABASE db')
+cursor.close()
+connection.close()
+```s
