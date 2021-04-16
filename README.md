@@ -51,7 +51,7 @@ Collection of things I've learned, that I'd otherwise quickly forget. (Again.)
 ### Python
 - [Show Current Python Version Running Jupyter](python/jupyter-show-current-python-version.md)
 - [Show Package Dependencies Using pip](python/pip-show-package-dependencies.md)
-
+- [Random Bitmap in PyGame](python/random-bitmap-in-pygame.md)
 
 ---
 
