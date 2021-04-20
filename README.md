@@ -24,6 +24,7 @@ Collection of things I've learned, that I'd otherwise quickly forget. (Again.)
 - [Access RDS from Lambda](aws/access-rds-from-lambda.md)
 - [Increase Storage for Windows EC2](aws/increase-storage-for-windows-ec2.md)
 - [Run Lambda Containers Locally](aws/run-lambda-containers-locally.md)
+- [Troubleshoot ECS](aws/troubleshoot-ecs.md)
 
 ### Databases
 - [mdb](databases/mdb.md)
@@ -57,8 +58,7 @@ Collection of things I've learned, that I'd otherwise quickly forget. (Again.)
 
 ## About
 
-I shamelessly stole this idea from
-[jbranchaud/til](https://github.com/jbranchaud/til).
+I shamelessly stole this idea from [jbranchaud/til](https://github.com/jbranchaud/til).
 
 ## Other TIL Collections
 
