@@ -16,6 +16,7 @@ Collection of things I've learned, that I'd otherwise quickly forget. (Again.)
 * [Math](#math)
 * [Pandas](#pandas)
 * [Python](#python)
+* [Scraping](#scraping)
 
 ---
 
@@ -53,6 +54,9 @@ Collection of things I've learned, that I'd otherwise quickly forget. (Again.)
 - [Show Current Python Version Running Jupyter](python/jupyter-show-current-python-version.md)
 - [Show Package Dependencies Using pip](python/pip-show-package-dependencies.md)
 - [Random Bitmap in PyGame](python/random-bitmap-in-pygame.md)
+
+### Scraping
+- [Hover Over an Item](scraping/hover-over-an-item.md)
 
 ---
 
