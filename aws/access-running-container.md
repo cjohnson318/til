@@ -19,7 +19,7 @@ Then use the Container ID to access the shell of the container you are
 interested in.
 
 ```bash
-docker exec -it <container-ID> bash
+docker exec -it <container-ID> /bin/bash
 ```
 
 Then you can perform migrations, or do whatever you need to do.
