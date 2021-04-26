@@ -43,6 +43,7 @@ Collection of things I've learned, that I'd otherwise quickly forget. (Again.)
 ### Math
 - [Entropy and Information Gain](math/entropy_and_information_gain.md)
 - [Linear Regression](math/linear-regression.md)
+- [Unimodal vs Multimodal](math/unimodal-vs-multimodal.md)
 
 ### Pandas
 - [Drop rows/cols with missing data](pandas/drop-rows-or-cols-with-missing-data.md)
