@@ -23,6 +23,7 @@ Collection of things I've learned, that I'd otherwise quickly forget. (Again.)
 ### AWS
 - [Access a Container Running in ECS](aws/access-running-container.md)
 - [Access RDS from Lambda](aws/access-rds-from-lambda.md)
+- [Get Data from an S3 Object](aws/get-data-from-s3-object.md)
 - [Increase Storage for Windows EC2](aws/increase-storage-for-windows-ec2.md)
 - [Run Lambda Containers Locally](aws/run-lambda-containers-locally.md)
 - [Troubleshoot ECS](aws/troubleshoot-ecs.md)
