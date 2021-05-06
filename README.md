@@ -47,6 +47,7 @@ Collection of things I've learned, that I'd otherwise quickly forget. (Again.)
 - [Unimodal vs Multimodal](math/unimodal-vs-multimodal.md)
 
 ### Pandas
+- [Break Big Data into Chunks](pandas/pandas/break-big-data-into-chunks.md)
 - [Drop rows/cols with missing data](pandas/drop-rows-or-cols-with-missing-data.md)
 - [Filter by regex](pandas/filter-by-regex.md)
 - [Replace `np.nan` with `None`](pandas/replace-np-nan-with-none.md)
