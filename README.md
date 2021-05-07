@@ -61,6 +61,7 @@ Collection of things I've learned, that I'd otherwise quickly forget. (Again.)
 - [Union of two `dict`](python/union-of-two-dict.md)
 
 ### Scraping
+- [Get HTML from Element](scraping/get-html-from-element.md)
 - [Hover Over an Item](scraping/hover-over-an-item.md)
 
 ---
