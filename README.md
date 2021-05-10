@@ -42,7 +42,7 @@ Collection of things I've learned, that I'd otherwise quickly forget. (Again.)
 - [Change the Endian-ness of a File](linux/change-endian-ness.md)
 
 ### Math
-- [Entropy and Information Gain](math/entropy_and_information_gain.md)
+- [Entropy and Information Gain](math/entropy-and-information-gain.md)
 - [Linear Regression](math/linear-regression.md)
 - [Unimodal vs Multimodal](math/unimodal-vs-multimodal.md)
 
@@ -63,6 +63,7 @@ Collection of things I've learned, that I'd otherwise quickly forget. (Again.)
 ### Scraping
 - [Get HTML from Element](scraping/get-html-from-element.md)
 - [Hover Over an Item](scraping/hover-over-an-item.md)
+- [Parse an HTML Table](scraping/parse-html-table.md)
 
 ---
 
