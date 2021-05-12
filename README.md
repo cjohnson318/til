@@ -64,6 +64,7 @@ Collection of things I've learned, that I'd otherwise quickly forget. (Again.)
 - [Get HTML from Element](scraping/get-html-from-element.md)
 - [Hover Over an Item](scraping/hover-over-an-item.md)
 - [Parse an HTML Table](scraping/parse-html-table.md)
+- [Use `chromedriver` Binary on a Mac](scraping/use-chromedriver-binary-on-mac.md)
 
 ---
 
