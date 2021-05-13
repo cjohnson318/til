@@ -12,7 +12,7 @@ $ brew install mdbtools
 
 Then the Python class below can access `mdbtools` using the subprocess module.
 
-```
+```python
 import pandas as pd
 import subprocess
 
