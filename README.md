@@ -54,6 +54,7 @@ Collection of things I've learned, that I'd otherwise quickly forget. (Again.)
 - [Spatial Interpolation](pandas/spatial-interpolation.md)
 
 ### Python
+- [Debugging](python/debugging.md)
 - [End of Month Calculation](python/end-of-month-calculation.md)
 - [Show Current Python Version Running Jupyter](python/jupyter-show-current-python-version.md)
 - [Show Package Dependencies Using pip](python/pip-show-package-dependencies.md)
