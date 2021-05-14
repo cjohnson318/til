@@ -17,6 +17,7 @@ Collection of things I've learned, that I'd otherwise quickly forget. (Again.)
 * [Pandas](#pandas)
 * [Python](#python)
 * [Scraping](#scraping)
+* [CS Theory](#cstheory)
 
 ---
 
@@ -66,6 +67,9 @@ Collection of things I've learned, that I'd otherwise quickly forget. (Again.)
 - [Hover Over an Item](scraping/hover-over-an-item.md)
 - [Parse an HTML Table](scraping/parse-html-table.md)
 - [Use `chromedriver` Binary on a Mac](scraping/use-chromedriver-binary-on-mac.md)
+
+## CS Theory
+- [Circular Linked List](cstheory/circular-linked-list.md)
 
 ---
 
