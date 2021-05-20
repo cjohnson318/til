@@ -56,6 +56,7 @@ Collection of things I've learned, that I'd otherwise quickly forget. (Again.)
 - [Spatial Interpolation](pandas/spatial-interpolation.md)
 
 ### Python
+- [Argmax Without NumPy](python/argmax-without-numpy.md)
 - [Debugging With `pdb`](python/debugging-with-pdb.md)
 - [End of Month Calculation](python/end-of-month-calculation.md)
 - [Show Current Python Version Running Jupyter](python/jupyter-show-current-python-version.md)
