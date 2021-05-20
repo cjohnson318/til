@@ -1,4 +1,4 @@
-# Debugging
+# Debugging With `pdb`
 
 The simplest way to perform debugging is to use `pdb`.
 
