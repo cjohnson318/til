@@ -49,6 +49,7 @@ Collection of things I've learned, that I'd otherwise quickly forget. (Again.)
 
 ### Pandas
 - [Break Big Data into Chunks](pandas/pandas/break-big-data-into-chunks.md)
+- [Convert Column to `datetime`](pandas/convert-column-to-datetime.md)
 - [Define a New Column](pandas/define-new-column.md)
 - [Drop rows/cols with missing data](pandas/drop-rows-or-cols-with-missing-data.md)
 - [Filter by regex](pandas/filter-by-regex.md)
