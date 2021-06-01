@@ -60,6 +60,7 @@ Collection of things I've learned, that I'd otherwise quickly forget. (Again.)
 ### Python
 - [Argmax Without NumPy](python/argmax-without-numpy.md)
 - [Debugging With `pdb`](python/debugging-with-pdb.md)
+- [Default Value for User Input](python/default-value-for-user-input.md)
 - [End of Month Calculation](python/end-of-month-calculation.md)
 - [Print an ASCII Table](python/print-ascii-table.md)
 - [Profiling with `cProfile`](python/profiling-with-cProfile.md)
