@@ -54,6 +54,7 @@ Collection of things I've learned, that I'd otherwise quickly forget. (Again.)
 - [Drop rows/cols with missing data](pandas/drop-rows-or-cols-with-missing-data.md)
 - [Filter by `datetime`](pandas/filter-by-datetime.md)
 - [Filter by regex](pandas/filter-by-regex.md)
+- [Pivot Table](pandas/pivot-table.md)
 - [Replace `np.nan` with `None`](pandas/replace-np-nan-with-none.md)
 - [Spatial Interpolation](pandas/spatial-interpolation.md)
 
