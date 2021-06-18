@@ -80,8 +80,8 @@ Collection of things I've learned, that I'd otherwise quickly forget. (Again.)
 - [Use `chromedriver` Binary on a Mac](scraping/use-chromedriver-binary-on-mac.md)
 
 ### Web
-- [Authorization gotcha](web/Authorization-gotcha.md)
-- [Gunicorn gotcha](web/gunicorn-gotcha.md)
+- [Authorization Token Gotcha](web/Authorization-token-gotcha.md)
+- [Gunicorn Gotcha](web/gunicorn-gotcha.md)
 
 ### CS Theory
 - [Circular Linked List](cstheory/circular-linked-list.md)
