@@ -17,6 +17,7 @@ Collection of things I've learned, that I'd otherwise quickly forget. (Again.)
 * [Pandas](#pandas)
 * [Python](#python)
 * [Scraping](#scraping)
+* [Web](#web)
 * [CS Theory](#cstheory)
 
 ---
@@ -41,6 +42,7 @@ Collection of things I've learned, that I'd otherwise quickly forget. (Again.)
 
 ### Linux
 - [Change the Endian-ness of a File](linux/change-endian-ness.md)
+- [SSH Config](linux/ssh-config.md)
 
 ### Math
 - [Entropy and Information Gain](math/entropy-and-information-gain.md)
@@ -76,6 +78,10 @@ Collection of things I've learned, that I'd otherwise quickly forget. (Again.)
 - [Hover Over an Item](scraping/hover-over-an-item.md)
 - [Parse an HTML Table](scraping/parse-html-table.md)
 - [Use `chromedriver` Binary on a Mac](scraping/use-chromedriver-binary-on-mac.md)
+
+### Web
+- [Authorization gotcha](web/Authorization-gotcha.md)
+- [Gunicorn gotcha](web/gunicorn-gotcha.md)
 
 ### CS Theory
 - [Circular Linked List](cstheory/circular-linked-list.md)
