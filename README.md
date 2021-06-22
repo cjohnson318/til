@@ -72,6 +72,7 @@ Collection of things I've learned, that I'd otherwise quickly forget. (Again.)
 - [Show Package Dependencies Using pip](python/pip-show-package-dependencies.md)
 - [Random Bitmap in PyGame](python/random-bitmap-in-pygame.md)
 - [Union of two `dict`](python/union-of-two-dict.md)
+- [Using `iceream` for Debugging](python/using-icrecream-for-debugging.md)
 
 ### Scraping
 - [Get HTML from Element](scraping/get-html-from-element.md)
