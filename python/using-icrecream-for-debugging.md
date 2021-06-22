@@ -1,10 +1,17 @@
 # Using `icecream` for Debugging
 
+## Install
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+pip install icecream
+```
+
 ## Getting Started
 
 ```python
 import sys
-
 from icecream import ic
 
 def yell(x: str) -> str:
@@ -17,6 +24,8 @@ if __name__ == '__main__':
     ic(result)
 ```
 
+Output:
+
 ```bash
 ic| sys.argv[1]: 'foo'
 ic| x: 'FOO'
@@ -28,7 +37,6 @@ ic| result: 'FOO!!!'
 
 ```python
 import sys
-
 from icecream import ic
 ic.configureOutput(includeContext=True)
 
@@ -42,6 +50,8 @@ if __name__ == '__main__':
     ic(result)
 ```
 
+Output:
+
 ```bash
 ic| driver.py:14 in <module>- sys.argv[1]: 'foo'
 ic| driver.py:10 in yell()- x: 'FOO'
@@ -49,11 +59,10 @@ ic| driver.py:14 in <module>- yell(ic(sys.argv[1])): 'FOO!!!'
 ic| driver.py:15 in <module>- result: 'FOO!!!'
 ```
 
-## Disabling/Enabling
+## Disabling/Enabling `icecream`
 
 ```python
 import sys
-
 from icecream import ic
 ic.configureOutput(includeContext=True)
 
@@ -68,6 +77,8 @@ if __name__ == '__main__':
     ic.enable()
     ic(result)
 ```
+
+Output:
 
 ```bash
 python driver.py foo
