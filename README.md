@@ -63,7 +63,7 @@ Collection of things I've learned, that I'd otherwise quickly forget. (Again.)
 
 ### Python
 - [Argmax Without NumPy](python/argmax-without-numpy.md)
-- [Debugging witth `iceream`](python/debugging-with-icrecream.md)
+- [Debugging with `iceream`](python/debugging-with-icrecream.md)
 - [Debugging with `pdb`](python/debugging-with-pdb.md)
 - [Default Value for User Input](python/default-value-for-user-input.md)
 - [End of Month Calculation](python/end-of-month-calculation.md)
