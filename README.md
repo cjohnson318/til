@@ -42,6 +42,7 @@ Collection of things I've learned, that I'd otherwise quickly forget. (Again.)
 
 ### Linux
 - [Change the Endian-ness of a File](linux/change-endian-ness.md)
+- [Create PDF from Images](linux/create-pdf-from-images.md)
 - [SSH Config](linux/ssh-config.md)
 
 ### Math
@@ -62,7 +63,8 @@ Collection of things I've learned, that I'd otherwise quickly forget. (Again.)
 
 ### Python
 - [Argmax Without NumPy](python/argmax-without-numpy.md)
-- [Debugging With `pdb`](python/debugging-with-pdb.md)
+- [Debugging witth `iceream`](python/debugging-with-icrecream.md)
+- [Debugging with `pdb`](python/debugging-with-pdb.md)
 - [Default Value for User Input](python/default-value-for-user-input.md)
 - [End of Month Calculation](python/end-of-month-calculation.md)
 - [Move File](python/move-files.md)
@@ -72,7 +74,6 @@ Collection of things I've learned, that I'd otherwise quickly forget. (Again.)
 - [Show Package Dependencies Using pip](python/pip-show-package-dependencies.md)
 - [Random Bitmap in PyGame](python/random-bitmap-in-pygame.md)
 - [Union of two `dict`](python/union-of-two-dict.md)
-- [Using `iceream` for Debugging](python/using-icrecream-for-debugging.md)
 
 ### Scraping
 - [Get HTML from Element](scraping/get-html-from-element.md)
