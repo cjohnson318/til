@@ -43,7 +43,7 @@ Collection of things I've learned, that I'd otherwise quickly forget. (Again.)
 ### Linux
 - [Change the Endian-ness of a File](linux/change-endian-ness.md)
 - [Create PDF from Images](linux/create-pdf-from-images.md)
-- [Open vim at the Last Line](linux/open-linux-at-the-last-line.md)
+- [Open vim at the Last Line](linux/open-vim-at-last-line.md)
 - [SSH Config](linux/ssh-config.md)
 
 ### Math
