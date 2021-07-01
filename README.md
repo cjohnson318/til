@@ -61,6 +61,7 @@ Collection of things I've learned, that I'd otherwise quickly forget. (Again.)
 - [Pivot Table](pandas/pivot-table.md)
 - [Replace `np.nan` with `None`](pandas/replace-np-nan-with-none.md)
 - [Spatial Interpolation](pandas/spatial-interpolation.md)
+- [Upsert](pandas/upsert.md)
 
 ### Python
 - [Argmax Without NumPy](python/argmax-without-numpy.md)
