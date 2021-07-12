@@ -66,6 +66,7 @@ Collection of things I've learned, that I'd otherwise quickly forget. (Again.)
 - [Upsert](pandas/upsert.md)
 
 ### Python
+- [Abstract Base Classes](python/abstract-base-class.md)
 - [Argmax Without NumPy](python/argmax-without-numpy.md)
 - [Debugging with `iceream`](python/debugging-with-icrecream.md)
 - [Debugging with `pdb`](python/debugging-with-pdb.md)
