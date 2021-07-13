@@ -52,6 +52,9 @@ Collection of things I've learned, that I'd otherwise quickly forget. (Again.)
 - [Linear Regression](math/linear-regression.md)
 - [Unimodal vs Multimodal](math/unimodal-vs-multimodal.md)
 
+### Matplotlib
+- [Rotate x-tick Labels](matplotlib/rotate-xtick-labels.md)
+
 ### Pandas
 - [Break Big Data into Chunks](pandas/pandas/break-big-data-into-chunks.md)
 - [Convert Column to `datetime`](pandas/convert-column-to-datetime.md)
