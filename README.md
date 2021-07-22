@@ -84,7 +84,8 @@ Collection of things I've learned, that I'd otherwise quickly forget. (Again.)
 - [Show Package Dependencies Using pip](python/pip-show-package-dependencies.md)
 - [Random Bitmap in PyGame](python/random-bitmap-in-pygame.md)
 - [Union of Multiple Sets](python/union-of-multiple-sets.md)
-- [Union of two `dict`](python/union-of-two-dict.md)
+- [Union of Two `dict`](python/union-of-two-dict.md)
+- [Create Zipped Download in Flask](python/create-zipped-download-in-flask.md)
 
 ### Scraping
 - [Get HTML from Element](scraping/get-html-from-element.md)
