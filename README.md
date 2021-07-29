@@ -96,6 +96,7 @@ Collection of things I've learned, that I'd otherwise quickly forget. (Again.)
 
 ### Web
 - [Authorization Token Gotcha](web/authorization-token-gotcha.md)
+- [Content Type for XLSX](web/content-type-for-xlsx.md)
 - [Gunicorn Gotcha](web/gunicorn-gotcha.md)
 
 ### CS Theory
