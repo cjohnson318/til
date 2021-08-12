@@ -11,5 +11,5 @@ Jump through random hoops to complete install.
 Use splat operator to collect images and convert them to a PDF.
 
 ```bash
-imagemagick ~/pictures/*.jpeg ~/documents/output.pdf
+convert ~/pictures/*.jpeg ~/documents/output.pdf
 ```
