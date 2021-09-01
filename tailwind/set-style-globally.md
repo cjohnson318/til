@@ -15,3 +15,6 @@ a {
     @apply text-green-500;
 }
 ```
+
+From here, you're free to tweak a single `<a>` tag to override `src/index.css`,
+or augment the global style with, say, an underline or transparency.
