@@ -41,6 +41,8 @@ Collection of things I've learned, that I'd otherwise quickly forget. (Again.)
 - [Convert Lat/Lon Coordinates to Lambert Azimuthal Equal Area Projection](geopandas/convert-data-to-lambert-projection.md)
 
 ### Linux
+- [Bash Arguments - Equal Separated](linux/bash-arguments-equal-separated.md)
+- [Bash Arguments - Space Separated](linux/bash-arguments-space-separated.md)
 - [Change the Endian-ness of a File](linux/change-endian-ness.md)
 - [Create PDF from Images](linux/create-pdf-from-images.md)
 - [Create a Key Mapping in Vim](linux/create-vim-keymap.md)
