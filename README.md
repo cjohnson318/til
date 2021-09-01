@@ -94,6 +94,10 @@ Collection of things I've learned, that I'd otherwise quickly forget. (Again.)
 - [Parse an HTML Table](scraping/parse-html-table.md)
 - [Use `chromedriver` Binary on a Mac](scraping/use-chromedriver-binary-on-mac.md)
 
+### Tailwind
+- [Set Style Globally](tailwind/set-style-globally.md)
+- [Setup in Vue3](tailwind/setup-in-vue3.md)
+
 ### Web
 - [Authorization Token Gotcha](web/authorization-token-gotcha.md)
 - [Content Type for XLSX](web/content-type-for-xlsx.md)
