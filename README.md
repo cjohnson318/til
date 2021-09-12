@@ -107,6 +107,7 @@ Collection of things I've learned, that I'd otherwise quickly forget. (Again.)
 
 ### CS Theory
 - [Circular Linked List](cstheory/circular-linked-list.md)
+- [Segment Tree](cstheory/segment-tree.md)
 
 ---
 
