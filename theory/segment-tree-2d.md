@@ -267,3 +267,9 @@ sg = SegmentGrid(a, sum)
 assert sg.query(1, 3, 1, 3) == 25
 assert sg.query(2, 4, 0, 2) == 11
 ```
+
+---
+
+### Reference
+
+  - [Geeks for Geeks](https://www.geeksforgeeks.org/two-dimensional-segment-tree-sub-matrix-sum/)
