@@ -18,7 +18,7 @@ Collection of things I've learned, that I'd otherwise quickly forget. (Again.)
 * [Python](#python)
 * [Scraping](#scraping)
 * [Web](#web)
-* [CS Theory](#cstheory)
+* [Theory](#theory)
 
 ---
 
@@ -105,10 +105,10 @@ Collection of things I've learned, that I'd otherwise quickly forget. (Again.)
 - [Content Type for XLSX](web/content-type-for-xlsx.md)
 - [Gunicorn Gotcha](web/gunicorn-gotcha.md)
 
-### CS Theory
-- [Circular Linked List](cstheory/circular-linked-list.md)
-- [Segment Tree](cstheory/segment-tree.md)
-- [Segmetn Tree in 2D](cstheory/segment-tree-2d.md)
+### Theory
+- [Circular Linked List](theory/circular-linked-list.md)
+- [Segment Tree](theory/segment-tree.md)
+- [Segment Tree in 2D](theory/segment-tree-2d.md)
 
 ---
 
