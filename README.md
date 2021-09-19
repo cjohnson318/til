@@ -50,6 +50,7 @@ Collection of things I've learned, that I'd otherwise quickly forget. (Again.)
 - [Grep - Show Filenames Only](linux/grep-show-filenames-only.md)
 - [Open vim at the Last Line](linux/open-vim-at-last-line.md)
 - [SSH Config](linux/ssh-config.md)
+- [sed Replace](linux/sed-replace.md)
 
 ### Math
 - [Entropy and Information Gain](math/entropy-and-information-gain.md)
