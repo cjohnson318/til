@@ -73,6 +73,10 @@ Collection of things I've learned, that I'd otherwise quickly forget. (Again.)
 - [Spatial Interpolation](pandas/spatial-interpolation.md)
 - [Upsert](pandas/upsert.md)
 
+### PowerShell
+- [Check PID on Port](powershell/check-pid-on-port.md)
+- [Kill Process by PID](powershell/kill-process-by-pid.md)
+
 ### Python
 - [Abstract Base Classes](python/abstract-base-class.md)
 - [Argmax Without NumPy](python/argmax-without-numpy.md)
