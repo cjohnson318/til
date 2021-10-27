@@ -37,6 +37,9 @@ Collection of things I've learned, that I'd otherwise quickly forget. (Again.)
 ### Docker
 - [`RUN` vs. `CMD`](docker/run-vs-cmd.md)
 
+### Flutter
+- [Install Flutter](flutter/install-flutter.md)
+
 ### GeoPandas
 - [Convert Lat/Lon Coordinates to Lambert Azimuthal Equal Area Projection](geopandas/convert-data-to-lambert-projection.md)
 
