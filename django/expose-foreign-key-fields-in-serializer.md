@@ -32,3 +32,7 @@ class BookOfTheMonthSerializer(serializers.ModelSerializer):
 This endpoint returns a JSON that has fields for the id of the book of the
 month object, the id of that book, the name of the book, taken from the Book
 object, through the foreign key reference, and the month, as a string.
+
+## Reference
+
+  - [https://stackoverflow.com/questions/52491330/how-to-get-foreignkey-field-name-insted-of-id-in-django-rest-framework](https://stackoverflow.com/questions/52491330/how-to-get-foreignkey-field-name-insted-of-id-in-django-rest-framework)
