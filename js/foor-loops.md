@@ -19,3 +19,7 @@ for (let [index, value] of array.entries()) {
   // do something
 }
 ```
+
+## Reference
+
+  - [https://stackoverflow.com/questions/3010840/loop-through-an-array-in-javascript](https://stackoverflow.com/questions/3010840/loop-through-an-array-in-javascript)
