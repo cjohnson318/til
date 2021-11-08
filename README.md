@@ -43,6 +43,13 @@ Collection of things I've learned, that I'd otherwise quickly forget. (Again.)
 ### GeoPandas
 - [Convert Lat/Lon Coordinates to Lambert Azimuthal Equal Area Projection](geopandas/convert-data-to-lambert-projection.md)
 
+### Javascript
+- [Call npm From Another Directory](js/call-npm-from-another-directory.md)
+- [For loops](js/for-loops.md)
+- [Pretty Print Objects in the Console](js/pretty-print-objects-in-the-console.md)
+- [Variables: null, undefined](js/variables-null-undefined.md)
+- [Variables: var, let, const](js/variables-var-let-const.md)
+
 ### Linux
 - [Bash Arguments - Equal Separated](linux/bash-arguments-equal-separated.md)
 - [Bash Arguments - Space Separated](linux/bash-arguments-space-separated.md)
@@ -54,6 +61,9 @@ Collection of things I've learned, that I'd otherwise quickly forget. (Again.)
 - [Open vim at the Last Line](linux/open-vim-at-last-line.md)
 - [SSH Config](linux/ssh-config.md)
 - [sed Replace](linux/sed-replace.md)
+
+### Lua
+- [Syntax](lua/syntax.md)
 
 ### Math
 - [Entropy and Information Gain](math/entropy-and-information-gain.md)
