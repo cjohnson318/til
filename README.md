@@ -119,16 +119,19 @@ Collection of things I've learned, that I'd otherwise quickly forget. (Again.)
 - [Set Style Globally](tailwind/set-style-globally.md)
 - [Setup in Vue3](tailwind/setup-in-vue3.md)
 
+### Theory
+- [Circular Linked List](theory/circular-linked-list.md)
+- [Segment Tree](theory/segment-tree.md)
+- [Segment Tree in 2D](theory/segment-tree-2d.md)
+
+### Vue
+- [Relative Paths in `index.html`](vue/relative-paths-in-index.md)
+
 ### Web
 - [Authorization Token Gotcha](web/authorization-token-gotcha.md)
 - [Content Type for XLSX](web/content-type-for-xlsx.md)
 - [DNS Gotcha](web/dns-gotcha.md)
 - [Gunicorn Gotcha](web/gunicorn-gotcha.md)
-
-### Theory
-- [Circular Linked List](theory/circular-linked-list.md)
-- [Segment Tree](theory/segment-tree.md)
-- [Segment Tree in 2D](theory/segment-tree-2d.md)
 
 ---
 
