@@ -10,6 +10,7 @@ Collection of things I've learned, that I'd otherwise quickly forget. (Again.)
 
 * [AWS](#aws)
 * [Databases](#databases)
+* [Django](#django)
 * [Docker](#docker)
 * [GeoPandas](#geopandas)
 * [Linux](#linux)
@@ -33,6 +34,9 @@ Collection of things I've learned, that I'd otherwise quickly forget. (Again.)
 ### Databases
 - [mdb](databases/mdb.md)
 - [pyodbc](databases/pyodbc.md)
+
+### Django
+- [Expose foreign key field in serializer](django/expose-foreign-key-fields-in-serializer.md)
 
 ### Docker
 - [`RUN` vs. `CMD`](docker/run-vs-cmd.md)
