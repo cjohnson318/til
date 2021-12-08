@@ -15,7 +15,7 @@ Most `pygame` and/or MIDI guides assume you know how to do this part.
 
 ## Generate Music
 
-I modified this script from [here]((https://pythonprogramming.altervista.org/a-midi-synth-in-pygame/?doing_wp_cron=1638809090.8745620250701904296875)
+I modified this script from [here](https://pythonprogramming.altervista.org/a-midi-synth-in-pygame/?doing_wp_cron=1638809090.8745620250701904296875)
 to play a jazz 6-2-5-1 turnaround, using standard positions.
 
 ```python
