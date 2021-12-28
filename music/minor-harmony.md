@@ -4,14 +4,14 @@ The Natural Minor scale harmonized produces the following chords:
 
 | | | | | | | |
 |-|-|-|-|-|-|-|
-| i | ii &#59505; | III | iv | v | VI | VII |
+| i | ii$^{ø}$ | III | iv | v | VI | &flat;VII |
 | | | | | | | |
 
 The Harmonic Minor scale harmonized provides a dominant V7, which produces a stronger resolution to the tonic.
 
 | | | | | | | |
 |-|-|-|-|-|-|-|
-| i | ii &#59505; | III+ | iv | V7 | VI | vii&sharp;&#59505; |
+| i | ii$^{ø}$ | III$^{+}$ | iv | V7 | VI | vii$^{ø}$ |
 | | | | | | | |
 
 
