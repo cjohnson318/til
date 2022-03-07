@@ -38,6 +38,7 @@ Collection of things I've learned, that I'd otherwise quickly forget. (Again.)
 
 ### Django
 - [Expose foreign key field in serializer](django/expose-foreign-key-fields-in-serializer.md)
+- [Log to console under runserver](django/log-to-console-under-runserver.md)
 
 ### Docker
 - [`RUN` vs. `CMD`](docker/run-vs-cmd.md)
@@ -61,13 +62,15 @@ Collection of things I've learned, that I'd otherwise quickly forget. (Again.)
 - [Change the Endian-ness of a File](linux/change-endian-ness.md)
 - [Create PDF from Images](linux/create-pdf-from-images.md)
 - [Create a Key Mapping in Vim](linux/create-vim-keymap.md)
+- [`cronjob` Setup](linux/cronjob-setup.md)
 - [Encryption with GNU PGP](linux/encryption-with-gnu-pgp.md)
 - [Grep - Show Filenames Only](linux/grep-show-filenames-only.md)
 - [Open vim at the Last Line](linux/open-vim-at-last-line.md)
 - [Preview CSV](linux/preview-csv.md)
 - [rsync](linux/rsync.md)
-- [SSH Config](linux/ssh-config.md)
 - [sed Replace](linux/sed-replace.md)
+- [SSH Config](linux/ssh-config.md)
+- [SSH Key Generation](linux/ssh-keygen.md)
 
 ### Lua
 - [Syntax](lua/syntax.md)
@@ -139,6 +142,7 @@ Collection of things I've learned, that I'd otherwise quickly forget. (Again.)
 
 ### Web
 - [Authorization Token Gotcha](web/authorization-token-gotcha.md)
+- [Blue-Green Deployment](web/blue-green-deployment.md)
 - [Content Type for XLSX](web/content-type-for-xlsx.md)
 - [Deploy Django to Heroku](web/deply-django-to-heroku.md)
 - [DNS Gotcha](web/dns-gotcha.md)
