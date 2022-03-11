@@ -41,6 +41,7 @@ Collection of things I've learned, that I'd otherwise quickly forget. (Again.)
 - [Log to console under runserver](django/log-to-console-under-runserver.md)
 
 ### Docker
+- [Include Environment Variables](docker/include-environment-variables.md)
 - [`RUN` vs. `CMD`](docker/run-vs-cmd.md)
 
 ### Flutter
@@ -57,6 +58,7 @@ Collection of things I've learned, that I'd otherwise quickly forget. (Again.)
 - [Variables: var, let, const](js/variables-var-let-const.md)
 
 ### Linux
+- [`awk` Notes](linux/awk-notes.md)
 - [Bash Arguments - Equal Separated](linux/bash-arguments-equal-separated.md)
 - [Bash Arguments - Space Separated](linux/bash-arguments-space-separated.md)
 - [Change the Endian-ness of a File](linux/change-endian-ness.md)
