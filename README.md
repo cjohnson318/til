@@ -37,6 +37,7 @@ Collection of things I've learned, that I'd otherwise quickly forget. (Again.)
 - [pyodbc](databases/pyodbc.md)
 
 ### Django
+- [Dockerize Django App](django/dockerize-django-app.md)
 - [Expose foreign key field in serializer](django/expose-foreign-key-fields-in-serializer.md)
 - [Log to console under runserver](django/log-to-console-under-runserver.md)
 
