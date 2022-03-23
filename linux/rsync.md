@@ -9,3 +9,5 @@ rsync -aP [SOURCE] [DESTINATION]
 ```
 
 Make sure the source directory has a trailing slash.
+
+If you're sending a single file over, then use the absolute path to that file.
