@@ -1,6 +1,35 @@
 # NGINX - Use CORS with Multiple Domains
 
-Put this in your `/etc/nginx/nginx.conf` file.
+Put this in your `/etc/nginx/nginx.conf` file. The main thing is this block:
+
+```nginx
+map $http_origin $allow_origin {
+    ~^https?://domain.com$ $http_origin;
+    ~^https?://www.domain.com$ $http_origin;
+    default "";
+}
+```
+
+This allows you to listen to both `https://domain.com` and
+`https://www.domain.com`, and then put the right origin in the
+`"Access-Control-Allow-Origin"` header in these lines:
+
+```nginx
+# Simple requests
+if ($request_method ~* "(GET|POST)") {
+    add_header "Access-Control-Allow-Origin" $allow_origin;
+}
+# Preflight Requests
+if ($request_method = OPTIONS ) {
+    add_header "Access-Control-Allow-Origin" $allow_origin;
+    add_header "Access-Control-Allow-Methods" "GET, POST, PUT, OPTIONS, HEAD";
+    add_header "Access-Control-Allow-Headers" "Authorization, Origin, X-Requested-With, Content-Type, Accept, X-CSRFTOKEN";
+    add_header "Access-Control-Allow-Credentials" "true";
+    return 200;
+}
+```
+
+Here is the whole config file.
 
 ```nginx
 worker_processes 1;
