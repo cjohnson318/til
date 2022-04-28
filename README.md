@@ -144,6 +144,7 @@ Collection of things I've learned, that I'd otherwise quickly forget. (Again.)
 - [Segment Tree in 2D](theory/segment-tree-2d.md)
 
 ### Vue
+- [Make Array in Vuex Reactive](vue/make-array-in-vuex-reactive.md)
 - [Relative Paths in `index.html`](vue/relative-paths-in-index.md)
 
 ### Web
