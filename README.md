@@ -56,6 +56,7 @@ Collection of things I've learned, that I'd otherwise quickly forget. (Again.)
 
 ### Javascript
 - [Call npm From Another Directory](js/call-npm-from-another-directory.md)
+- [Example - Cheerio](js/example-cheerio.md)
 - [For loops](js/for-loops.md)
 - [Pretty Print Objects in the Console](js/pretty-print-objects-in-the-console.md)
 - [Variables: null, undefined](js/variables-null-undefined.md)
