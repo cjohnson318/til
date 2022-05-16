@@ -77,6 +77,7 @@ Collection of things I've learned, that I'd otherwise quickly forget. (Again.)
 - [Preview CSV](linux/preview-csv.md)
 - [rsync](linux/rsync.md)
 - [sed Replace](linux/sed-replace.md)
+- [Sort By Version Number](linux/sort-by-version-number.md)
 - [SSH Config](linux/ssh-config.md)
 - [SSH Key Generation](linux/ssh-keygen.md)
 
