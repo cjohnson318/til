@@ -149,6 +149,7 @@ Collection of things I've learned, that I'd otherwise quickly forget. (Again.)
 ### Vue
 - [Make Array in Vuex Reactive](vue/make-array-in-vuex-reactive.md)
 - [Relative Paths in `index.html`](vue/relative-paths-in-index.md)
+- [Vuex: Dispatch Between Stores](vue/vuex-dispatch-between-stores.md)
 
 ### Web
 - [Authorization Token Gotcha](web/authorization-token-gotcha.md)
