@@ -161,6 +161,7 @@ Collection of things I've learned, that I'd otherwise quickly forget. (Again.)
 - [Gunicorn Gotcha](web/gunicorn-gotcha.md)
 - [NGINX - Use CORS with Mulitple Subdomains](web/nginx-use-cors-with-multiple-subdomains.md_)
 - [NPM Error - Cannot find module `../package.json`](web/npm-error-package-dot-json-not-found.md)
+- [Web Sockets](web/web-sockets.md)
 
 ---
 
