@@ -82,6 +82,7 @@ Collection of things I've learned, that I'd otherwise quickly forget. (Again.)
 - [SSH Key Generation](linux/ssh-keygen.md)
 
 ### Lua
+- [Read File](lua/read-file.md)
 - [Syntax](lua/syntax.md)
 
 ### Math
