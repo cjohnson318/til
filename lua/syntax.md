@@ -171,9 +171,15 @@ Print a table.
 
 ```lua
 t = {foo='bar'}
-for k, v in pairs(t) do
-  print(k, v)
-end
+for k, v in pairs(t) do print(k, v) end
+```
+
+Append to the end of a table.
+
+```lua
+foo = {}
+table.insert(foo, "bar")
+table.insert(foo, "baz")
 ```
 
 
@@ -209,3 +215,22 @@ end
 return M
 ```
 
+
+## Penlight
+
+```bash
+brew install luarocks
+luarocks install penlight
+```
+
+Then, in the REPL,
+
+```lua
+require 'pl'
+```
+
+Or in a module
+
+```lua
+local utils = require 'pl.utils'
+```
