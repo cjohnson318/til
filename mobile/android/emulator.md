@@ -29,7 +29,7 @@ I put `emulator/` before the `platform-tools/` according to [this](https://issue
 Then, to start an emulator, I use the `emulator` util as,
 
 ```bash
-emulator <avd>
+emulator -avd <avd>
 ```
 
 Where `<avd>` is one of those listed by the command,

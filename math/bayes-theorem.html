@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>bayes-theorem.md</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+# Bayes Theorem In general we have, $$ \Pr(H|E) =
+\dfrac{\Pr(E|H)\Pr(H)}{\sum\Pr(E)} $$ For the case of two events, $E$
+and $\neg E$ $$ \Pr(H|E) = \dfrac{\Pr(E|H)\Pr(H)}{\Pr(E|H)\Pr(H) +
+\Pr(E| \neg H)\Pr(\neg H)} $$ **Explanation:** We're interested in the
+probability that that something happened, H, given that we have
+evidence, E, that it happened. So, we're interested in $\Pr(H|E)$.
+However, we also need an estimates of $\Pr(H)$, $\Pr(E|H)$ and
+$Pr(E|\neg H)$. **Example:** For a totally made up example, say H is the
+case that you have Covid-19, and E is a negative test result. So we want
+to know the probability that we have Covid-19, given that we've tested
+negative. Let's assume that you've been on a flight, but you wore a mask
+the whole time, so $\Pr(H) = 0.3$. You *probably* don't have Covid-19,
+but maybe you do. The probability that you test negative, given that you
+are negative is $$ \Pr(E|\neg H) = 0.985 $$ The probability that you
+test negative, given that you are positive is $$ \Pr(E|H) = 0.015 $$
+Here is the confusion matrix for Covid-19 take home tests.
+************************************** * Actual * * Pos. Neg. * *
++---------+---------+ * * | 84.6% | 15.4% | * * Pos. | | | * * | TP | FP
+| * * TEST +---------+---------+ * * | 1.5% | 98.5% | * * Neg. | | | * *
+| FN | TN | * * +---------+---------+ *
+************************************** Then we have, $$ \Pr(E|H)\Pr(H) =
+(0.015)(0.3) = 0.0045 $$ and $$ \Pr(E|\neg H) = (0.985)(0.7) = 0.6895 $$
+Therefore, $$ \Pr(H|E) = \dfrac{0.0045}{0.0045 + 0.6895} = 0.00648 $$
+There's a very low chance you have Covid-19, given that you test
+negative, taking into account that there's a decent chance, 30%, that
+you were exposed. The grat thing about Bayes' Theorem is that you can
+provide additional information, like what you believe your exposure was
+over your trip.
+</body>
+</html>
