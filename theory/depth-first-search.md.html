@@ -1,0 +1,155 @@
+# Depth First Search
+
+TIP: DFS uses a Stack. Associate **DEPTH** with a **VERTICAL STACK**, like a stack of plates.
+
+Use Depth-First Search:
+
+  - When you want to find the longest path between two nodes in a graph.
+  - When you want to detect a cycle in a graph.
+  - When the tree is very wide (has a lot of branches). BFS would use more memory.
+  - When you want to visit child nodes before sibling nodes.
+  - When solving a maze/puzzle problem, a DFS allows you to traverse through all possible paths. This is very useful for creating a decision tree.
+  
+From: [When to Use Depth-First Search (DFS) vs Breadth-First Search (BFS)](https://medium.com/@alexzelinsky124/when-to-use-depth-first-search-dfs-vs-breadth-first-search-8ad4c514e033)
+
+## Define a Tree
+
+```python
+class TreeNode:
+    def __init__(self, data, parent, verbose=False):
+        self.data = data
+        self.parent = parent
+        self.children = []
+        self.verbose = verbose
+    def add_child(self, data):
+        '''Add a child with some data.
+        '''
+        if self.verbose:
+            print(f'Adding data {data} to child {self.data}')
+        self.children.append(TreeNode(data, self, self.verbose))
+    def get_child(self, i):
+        '''Get the child of a node by its index.
+        '''
+        N = len(self.children)
+        if i >= N:
+            raise IndexError(f'Pick an index less than {N}.')
+        return self.children[i]
+    def __eq__(self, other):
+        '''Compare two nodes for equality, e.g., TreeNode(2) == TreeNode(3) --> False.
+        
+        Compare nodes based on their data attribute, ignoring parents and children.
+        '''
+        if self.data == other.data:
+            return True
+        else:
+            return False
+    def __repr__(self):
+        '''(Sort of) pretty-print a node.
+        '''
+        child_data = [it.__repr__() for it in self.children]
+        child_data = ', '.join(child_data)
+        return f'({self.data}) -> [{child_data}]'
+
+class Tree:
+    def __init__(self, data, verbose=False):
+        '''Initialize tree with a root node.
+        '''
+        self.root = TreeNode(data, None, verbose)
+    def add_child(self, node, data):
+        '''Add a child to a given node.
+        '''
+        node.add_child(data)
+    def __repr__(self):
+        '''(Sort of) pretty-print a tree.
+        '''
+        return self.root.__repr__()
+```
+
+Add data to the tree.
+
+```python
+t = Tree(1, verbose=True)
+t.add_child(t.root, 2)
+t.add_child(t.root, 3)
+t.add_child(t.root.get_child(0), 4)
+t.add_child(t.root.get_child(1), 5)
+t.add_child(t.root.get_child(1), 6)
+```
+
+Output:
+
+```raw
+Adding data 2 to child 1
+Adding data 3 to child 1
+Adding data 4 to child 2
+Adding data 5 to child 3
+Adding data 6 to child 3
+```
+
+Double check:
+
+```python
+print(t)
+```
+
+Output:
+
+```raw
+(1) -> [(2) -> [(4) -> []], (3) -> [(5) -> [], (6) -> []]]
+```
+
+## Implement DFS
+
+```python
+class TreeDFS:
+    def __init__(self, tree, verbose=False):
+        self.tree = tree
+        self.verbose = verbose
+    def search(self, query):
+        self.tovisit = [self.tree.root]
+        node = None
+        result = None
+        while True:
+            if len(self.tovisit) == 0:
+                result = None
+                break
+            node = self.tovisit.pop(0)
+            if self.verbose:
+                print(f'Inspecting node.data {node.data}')
+            if node.data == query:
+                result = node
+                break
+            for child in node.children:
+                # add to front, like a stack
+                self.tovisit.insert(0, child)
+        return result
+```
+
+Smoke test:
+
+```python
+TreeDFS(t, verbose=True).search(5)
+```
+
+Output:
+
+```raw
+Inspecting node.data 1
+Inspecting node.data 3
+Inspecting node.data 6
+Inspecting node.data 5
+(5) -> []
+```
+
+## Test
+
+```python
+algorithm = TreeDFS(t)
+for i in range(1, 7):
+    assert algorithm.search(i).data == i
+
+# 7 is not in the tree, so this should return None
+assert algorithm.search(7) == None
+```
+
+<!-- Markdeep: --><style class="fallback">body{visibility:hidden;white-space:pre;font-family:monospace}</style><script src="markdeep.min.js" charset="utf-8"></script><script src="https://morgan3d.github.io/markdeep/latest/markdeep.min.js" charset="utf-8"></script><script>window.alreadyProcessedMarkdeep||(document.body.style.visibility="visible")</script>
